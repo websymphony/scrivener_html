@@ -6,7 +6,7 @@ defmodule ScrivenerHtml.Mixfile do
     [
       app: :scrivener_html,
       version: @version,
-      elixir: "~> 1.14",
+      elixir: "~> 1.17",
       name: "scrivener_html",
       source_url: "https://github.com/mgwidmann/scrivener_html",
       homepage_url: "https://github.com/mgwidmann/scrivener_html",
@@ -50,7 +50,7 @@ defmodule ScrivenerHtml.Mixfile do
       {:scrivener, "~> 2.7"},
       {:phoenix_html, "~> 4.1"},
       {:phoenix_html_helpers, "~> 1.0"},
-      {:phoenix, "~> 1.7.14", optional: true},
+      {:phoenix, "~> 1.8", optional: true},
       {:plug, "~> 1.14"},
       {:ex_doc, "~> 0.19", only: :dev},
       {:earmark, "~> 1.1", only: :dev}
